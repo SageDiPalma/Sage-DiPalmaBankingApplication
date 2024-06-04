@@ -1,0 +1,19 @@
+.popup{
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px; 
+  margin: 5px;
+}
+
+.nav-item:hover .popup {
+  background-color: green;
+  color: white;
+}
+
+.popup:hover{
+  color: white;
+}
+
+.menu-active{
+  color: white !important;
+  background-color: blue !important;
+}
