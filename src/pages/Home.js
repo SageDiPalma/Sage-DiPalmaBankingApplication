@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from '../components/Card'
-import Bank from '../assets/bank.png'
+import Vault from '../vaultdoor.jpg'
 
 export default function Home() {
   return (
@@ -9,10 +9,10 @@ export default function Home() {
         <div className='col-12'>
           <Card
             txtcolor="black"
-            title="WELCOME TO THE BANK"
-            text="For all your banking needs"
+            title="Welcome to Security Banking Services"
+            text="Trusted by the Best!"
             body={
-              <img src={Bank} className="img-fluid" alt="Responsive img" />
+              <img src={Vault} className="img-fluid" alt="Responsive img" />
             }
           />
         </div>
