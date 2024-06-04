@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from '../components/Card'
-import Vault from '../vaultdoor.jpg'
+import Vault from '../assets/vaultdoor.jpg'
 
 export default function Home() {
   return (
