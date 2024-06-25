@@ -19,7 +19,7 @@ export default function CreateAccount() {
       setTimeout(() => setStatus(''), 3000);
       return false;
     }else{
-      if(label == "password"){
+      if(label === "password"){
         if(field.length < 8){
           setStatus('Password cannot less than 8 characters');
           return false;
