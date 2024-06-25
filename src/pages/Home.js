@@ -9,7 +9,7 @@ export default function Home() {
         <div className='col-12'>
           <Card
             txtcolor="black"
-            title="Welcome to Security Banking Services"
+            title="Welcome to Sage Security Banking Services"
             text="Trusted by the Best!"
             body={
               <img src={Vault} className="img-fluid" alt="Responsive img" />
